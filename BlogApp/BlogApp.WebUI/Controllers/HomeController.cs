@@ -12,5 +12,17 @@ namespace BlogApp.WebUI.Controllers
         {
             return View();
         }
+
+        public IActionResult List()
+        {
+            return View();
+        }
+
+        public IActionResult Details()
+        {
+            return View();
+        }
+
+
     }
 }
